@@ -15,18 +15,50 @@ un modeļa turpmākai ieviešanai nepieciešamās komandu rindas.
 Komandu rindas ir veidotas, izmantojot relatīvos ceļus, pieņemot datu failu 
 izvietojumu, kāds ir iezīmēts šajā repozitorijā. Esošā direktoriju struktūra:
 
-1. [Templates](./Templates/)
+1. [Templates](./Templates/) ar vairākām apakšdirektorijām:
 
-2. [IevadesDati](./IevadesDati/)
+2. [IevadesDati](./IevadesDati/) ar vairākām apakšdirektorijām:
 
-3. [Rastri_10m](./Rastri_10m/)
+3. [Rastri_10m](./Rastri_10m/), kurā tiks ievietoti ievades ģeodatu apstrādes 
+starprezultāti;
 
-4. [Rastri_500m](./Rastri_500m/), kurā ie
+4. [Rastri_500m](./Rastri_500m/), kurā tiks ievietoti ievades ģeodatu apstrādes 
+starprezultāti;
 
-5. [Rastri_100m](./Rastri_100m/)
+5. [Rastri_100m](./Rastri_100m/) ar vairākām apakšdirektorijām:
 
-6. [VidesParmainas](./VidesParmainas/)
+6. [VidesParmainas](./VidesParmainas/) ar vairākām apakšdirektorijām:
 
-7. [SuguModeli](./SuguModeli/)
+7. [SuguModeli](./SuguModeli/) ar vairākām apakšdirektorijām:
 
-8. [RScript](./RScript/)
+8. [RScript](./RScript/), kurā atrodas izpildīšanas secībā numurēti R komandrindu 
+faili. Tie visi kalpo vienam mērķim - datu sagatavošanai sugas izplatības 
+modelēšanai, pašai modelēšanai un tai sekojošajai vietu prioritizēšanai un pēc 
+būtības ir apvienojami vienā failā. Tomēr ir veidota vairāku secīgi izpildāmu 
+failu struktūra, lai atvieglotu rezultātu turpmāko lietojumu - izpildot tikai tās 
+daļas, kuras ir nepieciešams.
+
+Komandu rindas ir izstrādātas un testētas dažādās operētājsistēmās - gan individuāli 
+uzturētās, gan skaitļošanas centros, izmantojot konteinerizētu vidi. Ņemot vērā 
+procesēšanas apjomu, rekomendēju izmantot skaitļošanas centru pakalpojumus, kuros 
+izmantot pārbaudītus konteinerus:
+
+- visām darbībām, izņemot prioritizāciju, ir jābūt izpildāmām 
+[rocker/geospatial](https://hub.docker.com/r/rocker/geospatial) konteinerā. 
+Visas komandu rindas šajā repozitorijā ir pārbaudītas 2024-11-15 pieejamajā 
+versijā;
+
+- vietu prioritizācija ir veikta [Zonation 4. versijā](https://github.com/cbig/zonation-core), 
+kura konteinerizētā veidā ir pieejama no `docker://ghcr.io/wkmor1/zig4`.
+
+Šajā projektā izmantots Latvijas Universitātes Skaitliskās modelēšanas institūta HPC, 
+kurā konteineri izmantoti ar `singularity/3.7.1` moduli. To lejupielādei un 
+
+- `singularity pull geospatial2024.simg docker://rocker/geospatial:4.4.2`, kas 
+izveido darbam pieejamu konteineru "geospatial2024.simg". Ne visas šajā projektā 
+izmantotās R pakotnes ir uzreiz konteinerā pieejamās, tādēļ R komandu rindu faili 
+pārbauda to pieejamību un veic instalāciju, ja tā ir nepieciešama. Ir pārbaudīts, 
+ka šajā konteinerī ir visas nepieciešamās sistēmas atkarības;
+
+- `singularity pull docker://ghcr.io/wkmor1/zig4`, kas 
+izveido darbam pieejamu konteineru "zig4_latest.sif".
