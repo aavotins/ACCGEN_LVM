@@ -8,38 +8,38 @@ līdz ar šo repozitoriju. Zemāk ir sniegts uzskaitījums direktoriju kokam, t�
 par sevi ir pieejamas līdz ar šo repozitoriju un tajās ir ievietoti `*.md` faili 
 ar satura aprakstu. Uzskaitījumā esošās hipersaites ved uz aprakstiem.
 
-- [ainava](./IevadesDati/ainava/Readme_ainava.md)
+- [ainava](./ainava/Readme_ainava.md)
 
-- [atkritumi](./IevadesDati/atkritumi/Readme_atkritumi.md)
+- [atkritumi](./atkritumi/Readme_atkritumi.md)
 
-- [Augsnes](./IevadesDati/Augsnes/Readme_Augsnes.md)
+- [Augsnes](./Augsnes/Readme_Augsnes.md)
 
-- [CLC](./IevadesDati/CLC/Readme_CLC.md)
+- [CLC](./CLC/Readme_CLC.md)
 
-- [DAP](./IevadesDati/DAP/Readme_DAP.md)
+- [DAP](./DAP/Readme_DAP.md)
 
-- [distances](./IevadesDati/distances/Readme_distances.md) - tikai R fails
+- [distances](./distances/Readme_distances.md) - tikai R fails
 
-- [DynamicWorld](./IevadesDati/DynamicWorld/Readme_DynamicWorld.md)
+- [DynamicWorld](./DynamicWorld/Readme_DynamicWorld.md)
 
-- [klimats](./IevadesDati/klimats/Readme_klimats.md)
+- [klimats](./klimats/Readme_klimats.md)
 
-- [koki](./IevadesDati/koki/Readme_koki.md)
+- [koki](./koki/Readme_koki.md)
 
-- [LAD](./IevadesDati/LAD/Readme_LAD.md)
+- [LAD](./LAD/Readme_LAD.md)
 
-- [LV_EEZ](./IevadesDati/LV_EEZ/Readme_EEZ.md)
+- [LV_EEZ](./LV_EEZ/Readme_EEZ.md)
 
-- [LVM_AtvertieDati](./IevadesDati/LVM_AtvertieDati/Readme_LVMAtvertieDati.md)
+- [LVM_AtvertieDati](./LVM_AtvertieDati/Readme_LVMAtvertieDati.md)
 
-- [MKIS](./IevadesDati/MKIS/Readme_MKIS.md)
+- [MKIS](./MKIS/Readme_MKIS.md)
 
-- [MVR](./IevadesDati/MVR/Readme_MVR.md)
+- [MVR](./MVR/Readme_MVR.md)
 
-- [Noverojumi](./IevadesDati/Noverojumi/Readme_Noverojumi.md)
+- [Noverojumi](./Noverojumi/Readme_Noverojumi.md)
 
-- [reljefs](./IevadesDati/reljefs/Readme_reljefs.md)
+- [reljefs](./reljefs/Readme_reljefs.md)
 
-- [S2indices](./IevadesDati/S2indices/Readme_S2indices.md)
+- [S2indices](./S2indices/Readme_S2indices.md)
 
-- [topo](./IevadesDati/topo/Readme_topo.md)
+- [topo](./topo/Readme_topo.md)
