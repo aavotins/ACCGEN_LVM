@@ -1,6 +1,7 @@
 # Vietu prioritizācijas uzdevumu sagatavošana izpildei konteinerī "zig4_latest.sif"
 # Apraksts: ./RScript/Readme_RScript.md un projekta 2024. gada pārskatā.
-# Sākumā tiek sagatavoti divi prioritizācijas uzdevumi, pēc tam sniegtas komandu 
+# Sākumā izveido nepieciešamās direktorijas, tad darba sesijai pievieno pakotnes, 
+# tālāk tiek sagatavoti divi prioritizācijas uzdevumi, pēc tam sniegtas komandu 
 # rindas to rezultātu vizualizācijai
 
 # direktorijas ----
@@ -18,6 +19,8 @@ library(readxl)
 library(openxlsx)
 library(sf)
 library(patchwork)
+
+
 # individuālu vietu prioritizācija ----
 
 
