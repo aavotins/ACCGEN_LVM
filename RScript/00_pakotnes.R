@@ -1,5 +1,6 @@
 # Pārbauda vai ir pieejamas darbam nepieciešamās R pakotnes. Daļa no tām jau ir 
-# pieejama konteineros, daļu nepieciešams instalēt, ko sekojošās komandu rindas izdara.
+# instalēta rekomendētajā konteinerī, daļu nepieciešams instalēt, ko sekojošās 
+# komandu rindas izdara.
 
 
 if(!require(sf)) {install.packages("sf"); require(sf)}
