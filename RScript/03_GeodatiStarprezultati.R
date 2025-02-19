@@ -10,9 +10,23 @@
 # EGV sagatavošanai
 
 
+# ./Rastri_10m/TreeCoverLossYear.tif - vides pārmaiņām
+#dw17=rast("./VidesParmainas/Parmainam/DW_2017_apraug.tif")
+#dw18=rast("./VidesParmainas/Parmainam/DW_2018_apraug.tif")
+#dw19=rast("./VidesParmainas/Parmainam/DW_2019_apraug.tif")
+#dw20=rast("./VidesParmainas/Parmainam/DW_2020_apraug.tif")
+#dw21=rast("./VidesParmainas/Parmainam/DW_2021_apraug.tif")
+#dw22=rast("./VidesParmainas/Parmainam/DW_2022_apraug.tif")
+#dw23=rast("./VidesParmainas/Parmainam/DW_2023_apraug.tif")
+
+
+
+
 # `./IevadesDati/atkritumi/Waste.xlsx` ----
 
 # `./IevadesDati/LV_EEZ/LV_EEZ.shp` ----
+
+# `./IevadesDati/MVR/nogabali_2024janv.parquet` ----
 
 
 
@@ -31,7 +45,9 @@
 
 
 
+# `./Rastri_10m/Ainava_vienk_mask.tif` ----
 
+# `./IevadesDati/koki/TreeCoverLossYear.tif` ----
 
 
 # `./Rastri_10m/Ainava_MeziNetaksets.tif` ----
@@ -46,8 +62,25 @@
 
 # `./Rastri_10m/Lauki_zalajiYN.tif` ----
 
+# `./Rastri_10m/Mezi_EitrSus.tif` ----
+
+# `./Rastri_10m/Mezi_IzcUNzem5m.tif` ----
+
+# `./Rastri_10m/Mezi_JauktkokuJaunas.tif` ----
+
+# `./Rastri_10m/Mezi_MezoSaus.tif` ----
+
+# `./Rastri_10m/Mezi_OligoSaus.tif` ----
+
+# `./Rastri_10m/Mezi_OligoSus.tif` ----
+
+
 
 # `./Rastri_10m/Malam_Apbuve_koki.tif` ----
+
+# `./Rastri_10m/Malam_Aramzemes_Y.tif` ----
+
+# `./Rastri_10m/Malam_LIZzemiekoki_Koki.tif` ----
 
 
 
