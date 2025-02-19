@@ -6,7 +6,7 @@
 
 
 # zemāk esošie nodaļu nosaukumi ir atbilstošo komandu rindu sagatavoto slāņu nosaukumi,
-# kādi tiks ievietoti direktorijā `./Rastri_10m/`. Tie ir nepieciešami tālākai 
+# kādi tiks ievietoti atbilstošajā direktorijā. Tie ir nepieciešami tālākai 
 # EGV sagatavošanai
 
 
@@ -33,6 +33,8 @@
 
 
 
+# `./IevadesDati/koki/TreeCoverLossYear.tif` ----
+
 
 
 # `./IevadesDati/klimats/mozaikas/FebPrec.tif` ----
@@ -49,8 +51,6 @@
 
 
 # `./Rastri_10m/Ainava_vienk_mask.tif` ----
-
-# `./IevadesDati/koki/TreeCoverLossYear.tif` ----
 
 
 # `./Rastri_10m/Ainava_MeziNetaksets.tif` ----
