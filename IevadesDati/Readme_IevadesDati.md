@@ -36,7 +36,8 @@ ar satura aprakstu. Uzskaitījumā esošās hipersaites ved uz aprakstiem.
 
 - [MVR](./MVR/Readme_MVR.md)
 
-- [Noverojumi](./Noverojumi/Readme_Noverojumi.md)
+- [Noverojumi](./Noverojumi/Readme_Noverojumi.md), vietas turētājs 
+un izmantoto datu kopu apraksts;
 
 - [reljefs](./reljefs/Readme_reljefs.md)
 
