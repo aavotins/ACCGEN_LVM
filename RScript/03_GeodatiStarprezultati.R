@@ -16,7 +16,10 @@
 
 
 
-# ./Rastri_10m/TreeCoverLossYear.tif - vides pārmaiņām
+# ./Rastri_10m/TreeCoverLossYear.tif - done
+
+
+# vides pārmaiņām no DynamicWorld:
 #dw17=rast("./VidesParmainas/Parmainam/DW_2017_apraug.tif")
 #dw18=rast("./VidesParmainas/Parmainam/DW_2018_apraug.tif")
 #dw19=rast("./VidesParmainas/Parmainam/DW_2019_apraug.tif")

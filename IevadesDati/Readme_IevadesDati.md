@@ -20,16 +20,19 @@ un glabāšans vietu saraksts;
 
 - [klimats](./klimats/Readme_klimats.md)
 
-- [koki](./koki/Readme_koki.md)
+- [koki](./koki/Readme_koki.md), kurā ievietojami Zemes novērošanas dati par koku 
+sastopamību un to vainagu seguma izzušanu;
 
 - [LAD](./LAD/Readme_LAD.md)
 
 - [LV_EEZ](./LV_EEZ/Readme_EEZ.md), kurā ievietots slānis ar Latvijas Ekskluzīvās 
 Ekonomiskās zonas ūdeņiem;
 
-- [LVM_AtvertieDati](./LVM_AtvertieDati/Readme_LVMAtvertieDati.md)
+- [LVM_AtvertieDati](./LVM_AtvertieDati/Readme_LVMAtvertieDati.md), kurā ievietojama 
+individuāli iegūstama datu kopa;
 
-- [MKIS](./MKIS/Readme_MKIS.md)
+- [MKIS](./MKIS/Readme_MKIS.md), kurā ievietojama individuāli iegūstama Meliorācijas 
+Kadastra Informācijas sistēmas datu bāze;
 
 - [MVR](./MVR/Readme_MVR.md)
 
