@@ -8,17 +8,13 @@ līdz ar šo repozitoriju. Zemāk ir sniegts uzskaitījums direktoriju kokam, t�
 par sevi ir pieejamas līdz ar šo repozitoriju un tajās ir ievietoti `*.md` faili 
 ar satura aprakstu. Uzskaitījumā esošās hipersaites ved uz aprakstiem.
 
-- [ainava](./ainava/Readme_ainava.md)
+- [ainava](./ainava/Readme_ainava.md), kurā EGV sagatavošanas gaitā tiek ievietoti 
+starprezultāti;
 
-- [atkritumi](./atkritumi/Readme_atkritumi.md)
+- [atkritumi](./atkritumi/Readme_atkritumi.md), kurā ievietots atkritumu poligonu 
+un glabāšans vietu saraksts;
 
-- [Augsnes](./Augsnes/Readme_Augsnes.md)
-
-- [CLC](./CLC/Readme_CLC.md)
-
-- [DAP](./DAP/Readme_DAP.md)
-
-- [distances](./distances/Readme_distances.md) - tikai R fails
+- [CLC](./CLC/Readme_CLC.md), kurā ievietojama Corine Land Cover 2018. gada informācija;
 
 - [DynamicWorld](./DynamicWorld/Readme_DynamicWorld.md)
 
@@ -28,7 +24,8 @@ ar satura aprakstu. Uzskaitījumā esošās hipersaites ved uz aprakstiem.
 
 - [LAD](./LAD/Readme_LAD.md)
 
-- [LV_EEZ](./LV_EEZ/Readme_EEZ.md)
+- [LV_EEZ](./LV_EEZ/Readme_EEZ.md), kurā ievietots slānis ar Latvijas Ekskluzīvās 
+Ekonomiskās zonas ūdeņiem;
 
 - [LVM_AtvertieDati](./LVM_AtvertieDati/Readme_LVMAtvertieDati.md)
 
@@ -38,9 +35,5 @@ ar satura aprakstu. Uzskaitījumā esošās hipersaites ved uz aprakstiem.
 
 - [Noverojumi](./Noverojumi/Readme_Noverojumi.md), vietas turētājs 
 un izmantoto datu kopu apraksts;
-
-- [reljefs](./reljefs/Readme_reljefs.md)
-
-- [S2indices](./S2indices/Readme_S2indices.md)
 
 - [topo](./topo/Readme_topo.md)

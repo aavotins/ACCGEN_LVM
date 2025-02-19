@@ -10,6 +10,12 @@
 # EGV sagatavošanai
 
 
+
+# `./IevadesDati/LV_EEZ/LV_EEZ.shp` - done
+# `./IevadesDati/atkritumi/Waste.xlsx` - done
+
+
+
 # ./Rastri_10m/TreeCoverLossYear.tif - vides pārmaiņām
 #dw17=rast("./VidesParmainas/Parmainam/DW_2017_apraug.tif")
 #dw18=rast("./VidesParmainas/Parmainam/DW_2018_apraug.tif")
@@ -22,9 +28,6 @@
 
 
 
-# `./IevadesDati/atkritumi/Waste.xlsx` ----
-
-# `./IevadesDati/LV_EEZ/LV_EEZ.shp` ----
 
 # `./IevadesDati/MVR/nogabali_2024janv.parquet` ----
 
