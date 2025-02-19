@@ -27,23 +27,20 @@ to sagādāšana un atbilstoša izvietošana ir katra šī darba reproducētāja
 3. [Rastri_10m](./Rastri_10m/Readme_Rastri10m.md), kurā tiks ievietoti ievades 
 ģeodatu apstrādes starprezultāti;
 
-4. [Rastri_500m](./Rastri_500m/Readme_Rastri500m.md), kurā tiks ievietoti ievades 
-ģeodatu apstrādes starprezultāti;
-
-5. [Rastri_100m](./Rastri_100m/Readme_Rastri100m.md) ar vairākām apakšdirektorijām, 
+4. [Rastri_100m](./Rastri_100m/Readme_Rastri100m.md) ar vairākām apakšdirektorijām, 
 kurās komandu rindu izpildes rezultātā tiks ievietoti ekoģeogrāfiskei mainīgie. 
 Saturs skaidrots atbilstošajos `*.md` failos;
 
-6. [VidesParmainas](./VidesParmainas/Readme_VidesParmainas.md) ar vairākām apakšdirektorijām. Tajās 
+5. [VidesParmainas](./VidesParmainas/Readme_VidesParmainas.md) ar vairākām apakšdirektorijām. Tajās 
 ievietojamais saturs skaidrots atbilstošajos `*.md` failos. Daļa šīs direktorijas 
 satura ir jāiegūst pašiem reproducētājiem, sekojot `*.md` failos sniegtajām norādēm, 
 daļa tiks radīta komandu rindu izpildes rezultātā;
 
-7. [SuguModeli](./SuguModeli/Readme_SuguModeli.md) ar vairākām apakšdirektorijām, 
+6. [SuguModeli](./SuguModeli/Readme_SuguModeli.md) ar vairākām apakšdirektorijām, 
 kurās izvietoti sugas izplatības modelēšanas un vietu prioritizācijas rezultāti. 
 Šīs direktorijas saturs arhivētā veidā ir pievienots projekta 2024. gada pārskatam;
 
-8. [RScript](./RScript/), kurā atrodas izpildīšanas secībā numurēti R komandrindu 
+7. [RScript](./RScript/), kurā atrodas izpildīšanas secībā numurēti R komandrindu 
 faili. Tie visi kalpo vienam mērķim - datu sagatavošanai sugas izplatības 
 modelēšanai, pašai modelēšanai un tai sekojošajai vietu prioritizēšanai un pēc 
 būtības ir apvienojami vienā failā. Tomēr ir veidota vairāku secīgi izpildāmu 
