@@ -15,33 +15,33 @@ un modeļa turpmākai ieviešanai nepieciešamās komandu rindas.
 Komandu rindas ir veidotas, izmantojot relatīvos ceļus, pieņemot datu failu 
 izvietojumu, kāds ir iezīmēts šajā repozitorijā. Esošā direktoriju struktūra:
 
-1. [Templates](./Templates/Readme_Templates.md) ar vairākām apakšdirektorijām. Tajās ievietojamais saturs 
-skaidrots atbilstošajos `*.md` failos. Šis repozitorijs nesniedz piekļuvi datiem, 
-jo ievērojama daļa no tiem ir ierobežotas pieejamības - to sagādāšana un atbilstoša 
-izvietošana ir katra šī darba reproducētāja uzdevums;
+1. [Templates](./Templates/Readme_Templates.md) ar vairākām apakšdirektorijām. 
+Daļa šīs direktorijas satura ir jāiegūst pašiem reproducētājiem, sekojot `*.md` 
+failos sniegtajām norādēm, daļa tiks radīta komandu rindu izpildes rezultātā;
 
-2. [IevadesDati](./IevadesDati/Readme_IevadesDati.md) ar vairākām apakšdirektorijām. Tajās ievietojamais saturs 
-skaidrots atbilstošajos `*.md` failos. Šis repozitorijs nesniedz piekļuvi datiem, 
-jo ievērojama daļa no tiem ir ierobežotas pieejamības - to sagādāšana un atbilstoša 
-izvietošana ir katra šī darba reproducētāja uzdevums;
+2. [IevadesDati](./IevadesDati/Readme_IevadesDati.md) ar vairākām apakšdirektorijām. 
+Tajās ievietojamais saturs skaidrots atbilstošajos `*.md` failos. Šis repozitorijs 
+nesniedz piekļuvi datiem, jo ievērojama daļa no tiem ir ierobežotas pieejamības - 
+to sagādāšana un atbilstoša izvietošana ir katra šī darba reproducētāja uzdevums;
 
-3. [Rastri_10m](./Rastri_10m/Readme_Rastri10m.md), kurā tiks ievietoti ievades ģeodatu apstrādes 
-starprezultāti;
+3. [Rastri_10m](./Rastri_10m/Readme_Rastri10m.md), kurā tiks ievietoti ievades 
+ģeodatu apstrādes starprezultāti;
 
-4. [Rastri_500m](./Rastri_500m/Readme_Rastri500m.md), kurā tiks ievietoti ievades ģeodatu apstrādes 
-starprezultāti;
+4. [Rastri_500m](./Rastri_500m/Readme_Rastri500m.md), kurā tiks ievietoti ievades 
+ģeodatu apstrādes starprezultāti;
 
-5. [Rastri_100m](./Rastri_100m/Readme_Rastri100m.md) ar vairākām apakšdirektorijām, kurās komandu 
-rindu izpildes rezultātā tiks ievietoti ekoģeogrāfiskei mainīgie. Saturs 
-skaidrots atbilstošajos `*.md` failos.;
+5. [Rastri_100m](./Rastri_100m/Readme_Rastri100m.md) ar vairākām apakšdirektorijām, 
+kurās komandu rindu izpildes rezultātā tiks ievietoti ekoģeogrāfiskei mainīgie. 
+Saturs skaidrots atbilstošajos `*.md` failos;
 
 6. [VidesParmainas](./VidesParmainas/Readme_VidesParmainas.md) ar vairākām apakšdirektorijām. Tajās 
 ievietojamais saturs skaidrots atbilstošajos `*.md` failos. Daļa šīs direktorijas 
-satura ir jāiegūst pašiem reproducētājiem, daļa tiks radīta komandu rindu izpildes 
-rezultātā;
+satura ir jāiegūst pašiem reproducētājiem, sekojot `*.md` failos sniegtajām norādēm, 
+daļa tiks radīta komandu rindu izpildes rezultātā;
 
-7. [SuguModeli](./SuguModeli/Readme_SuguModeli.md) ar vairākām apakšdirektorijām, kurās izvietoti sugas 
-izplatības modelēšanas un vietu prioritizācijas rezultāti;
+7. [SuguModeli](./SuguModeli/Readme_SuguModeli.md) ar vairākām apakšdirektorijām, 
+kurās izvietoti sugas izplatības modelēšanas un vietu prioritizācijas rezultāti. 
+Šīs direktorijas saturs arhivētā veidā ir pievienots projekta 2024. gada pārskatam;
 
 8. [RScript](./RScript/), kurā atrodas izpildīšanas secībā numurēti R komandrindu 
 faili. Tie visi kalpo vienam mērķim - datu sagatavošanai sugas izplatības 
@@ -64,7 +64,8 @@ versijā;
 kura konteinerizētā veidā ir pieejama no `docker://ghcr.io/wkmor1/zig4`.
 
 Šajā projektā izmantots Latvijas Universitātes Skaitliskās modelēšanas institūta HPC, 
-kurā konteineri izmantoti ar `singularity/3.7.1` moduli. To lejupielādei un 
+kurā konteineri izmantoti ar `singularity/3.7.1` moduli. To lejupielāde un 
+sagatavošana darbam: 
 
 - `singularity pull geospatial2024.simg docker://rocker/geospatial:4.4.2`, kas 
 izveido darbam pieejamu konteineru "geospatial2024.simg". Ne visas šajā projektā 
@@ -78,3 +79,5 @@ izveido darbam pieejamu konteineru "zig4_latest.sif".
 Lai samazinātu reproducēšanas darba apjomu, šajā repozitorijā ir sniegta tikai 
 suga izplatības modelēšanas beigu modelī izmantoto ekoģeogrāfisko mainīgo 
 sagatavošanas procedūras.
+
+Šajā dokumentācijā izmantots `UTF-8` kodējums.
