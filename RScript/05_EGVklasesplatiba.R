@@ -257,34 +257,34 @@ rm(list=ls())
 
 
 ## Ainava_MeziNetaksets_r3000.tif
-dir.create("./IevadesDati/ainava/ClassArea/Ainava_MeziNetaksets_r3000")
+dir.create("./IevadesDati/ainava/ClassArea/Ainava_MeziNetaksets_r3000", recursive=TRUE)
 
 ## Ainava_Vasarnicas_r10000.tif
-dir.create("./IevadesDati/ainava/ClassArea/Ainava_Vasarnicas_r10000")
+dir.create("./IevadesDati/ainava/ClassArea/Ainava_Vasarnicas_r10000", recursive=TRUE)
 
 ## Lauku_Papuves_r10000.tif
-dir.create("./IevadesDati/ainava/ClassArea/Lauku_Papuves_r10000")
+dir.create("./IevadesDati/ainava/ClassArea/Lauku_Papuves_r10000", recursive=TRUE)
 
 ## Lauku_ZalajiVisi_r10000.tif
-dir.create("./IevadesDati/ainava/ClassArea/Lauku_ZalajiVisi_r10000")
+dir.create("./IevadesDati/ainava/ClassArea/Lauku_ZalajiVisi_r10000", recursive=TRUE)
 
 ## Mezi_EitrSus_r10000.tif
-dir.create("./IevadesDati/ainava/ClassArea/Mezi_EitrSus_r10000")
+dir.create("./IevadesDati/ainava/ClassArea/Mezi_EitrSus_r10000", recursive=TRUE)
 
 ## Mezi_JauktukokuJaunas_r3000.tif
-dir.create("./IevadesDati/ainava/ClassArea/Mezi_JauktukokuJaunas_r3000")
+dir.create("./IevadesDati/ainava/ClassArea/Mezi_JauktukokuJaunas_r3000", recursive=TRUE)
 
 ## Mezi_MezoSaus_r10000.tif
-dir.create("./IevadesDati/ainava/ClassArea/Mezi_MezoSaus_r10000")
+dir.create("./IevadesDati/ainava/ClassArea/Mezi_MezoSaus_r10000", recursive=TRUE)
 
 ## Mezi_OligoSaus_r10000.tif
-dir.create("./IevadesDati/ainava/ClassArea/Mezi_OligoSaus_r10000")
+dir.create("./IevadesDati/ainava/ClassArea/Mezi_OligoSaus_r10000", recursive=TRUE)
 
 ## Mezi_OligoSus_r10000.tif
-dir.create("./IevadesDati/ainava/ClassArea/Mezi_OligoSus_r10000")
+dir.create("./IevadesDati/ainava/ClassArea/Mezi_OligoSus_r10000", recursive=TRUE)
 
 ## Mezi_Saurlapju_r10000.tif
-dir.create("./IevadesDati/ainava/ClassArea/Mezi_Saurlapju_r10000")
+dir.create("./IevadesDati/ainava/ClassArea/Mezi_Saurlapju_r10000", recursive=TRUE)
 
 
 
