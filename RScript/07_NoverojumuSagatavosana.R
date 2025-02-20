@@ -32,6 +32,8 @@ dir.create("./SuguModeli/ApmacibuDati/TrainingBackground/")
 dir.create("./SuguModeli/ApmacibuDati/TestingBackground/")
 dir.create("./SuguModeli/ApmacibuDati/IzvelesAtteli/")
 
+dir.create("./IevadesDati/Noverojumi/apkopoti/AtteliIzvelei")
+
 
 # pakotnes -----
 
@@ -495,7 +497,6 @@ soli2=soli %>%
 
 ### abi atteli
 
-dir.create("./IevadesDati/Noverojumi/apkopoti/AtteliIzvelei")
 
 suga="ACCGEN"
 
@@ -870,7 +871,6 @@ trenina_fons=readbulk::read_bulk(directory="./SuguModeli/ApmacibuDati/TrainingBa
                                  fun=arrow::read_parquet)
 
 
-dir.create("./SuguModeli/ApmacibuDati/IzvelesAtteli")
 
 
 admin=read_sf("./Templates/TemplateGrids/administrativas_teritorijas_2021/Administrativas_teritorijas_2021.shp")
