@@ -7,3 +7,5 @@ to izveidošanas, veikta pēcapstrāde, kuras ietvaros radīti vai izmantoti fai
 `./Rastri_100m/Proj/` un pēc centrēšanas un mērogošanas 
 direktorijā `./Rastri_100m/Scaled/`.
 
+Pašu slāņu skaidrojums ir to nosaukumos, kas ir sniegts koamndu rindu failos. 
+Iespējams vēl labāk tas saprotams izsekojot slāņu sagatavošanas procedūru.
