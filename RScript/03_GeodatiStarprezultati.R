@@ -7,49 +7,8 @@
 
 # zemāk esošie nodaļu nosaukumi ir atbilstošo komandu rindu sagatavoto slāņu nosaukumi,
 # kādi tiks ievietoti atbilstošajā direktorijā. Tie ir nepieciešami tālākai 
-# EGV sagatavošanai
+# EGV sagatavošanai. Šo mainīgo sagatavošanas secībai ir nozīme.
 
-
-
-# `./IevadesDati/LV_EEZ/LV_EEZ.shp` - done
-# `./IevadesDati/atkritumi/Waste.xlsx` - done
-
-
-
-# ./Rastri_10m/TreeCoverLossYear.tif - done
-
-
-# vides pārmaiņām no DynamicWorld:
-#dw17=rast("./VidesParmainas/Parmainam/DW_2017_apraug.tif")
-#dw18=rast("./VidesParmainas/Parmainam/DW_2018_apraug.tif")
-#dw19=rast("./VidesParmainas/Parmainam/DW_2019_apraug.tif")
-#dw20=rast("./VidesParmainas/Parmainam/DW_2020_apraug.tif")
-#dw21=rast("./VidesParmainas/Parmainam/DW_2021_apraug.tif")
-#dw22=rast("./VidesParmainas/Parmainam/DW_2022_apraug.tif")
-#dw23=rast("./VidesParmainas/Parmainam/DW_2023_apraug.tif")
-
-
-
-
-
-# `./IevadesDati/MVR/nogabali_2024janv.parquet` ----
-
-
-
-# `./IevadesDati/koki/TreeCoverLossYear.tif` ----
-
-
-
-# `./IevadesDati/klimats/mozaikas/FebPrec.tif` ----
-
-
-# `./IevadesDati/klimats/mozaikas/JulPrec.tif` ----
-
-
-# `./IevadesDati/klimats/mozaikas/VegTempSums.tif` ----
-
-
-# `./IevadesDati/klimats/mozaikas/YearPrecSum.tif` ----
 
 
 
