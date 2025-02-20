@@ -7,12 +7,6 @@
 
 
 
-
-# direktorijas ----
-
-
-
-
 # pakotnes -----
 library(terra)
 library(tidyverse)
