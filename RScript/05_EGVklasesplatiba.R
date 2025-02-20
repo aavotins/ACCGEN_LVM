@@ -237,9 +237,9 @@ if(minmax(slanis,compute=FALSE)[2]>1){
 # šūnas līmenis ievadei tālākā EGV izveidei
 
 
-slanis=terra::rast("./Rastri_10m/Mezi_SaurlapjuJaunas.tif")
+slanis=terra::rast("./Rastri_10m/Mezi_Saurlapju.tif")
 slanis
-cels="./Rastri_100m/RAW/Mezi_SaurlapjuJaunas_cell.tif"
+cels="./Rastri_100m/RAW/Mezi_Saurlapju_cell.tif"
 if(minmax(slanis,compute=FALSE)[2]>1){
   EGVcell_mean_recl(slanis,template100,cels)
 } else {
