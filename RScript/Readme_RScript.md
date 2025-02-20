@@ -43,13 +43,53 @@ tiek ievietoti `./Rastri_10m`, bet starp tiem ir arī atsevišķi citi produkti;
 harmonizētā 100 m vektordatu režģa šūnās un 3000 m rādiusā ap to centriem. 
 Nepieciešams novērojumu atlasei modelēšanai;
 
-- `05_EGV.R` komandu rindas 33 vistu vanaga izplatības modeļa parametrizācijā 
-izmantoto ekoģeogrāfisko mainīgo sagatavošanai. Visi putnu sugu izplatības 
+- `05_EGVklimats.R` sagatavo četrus no kopumā 33 beigu modelī izmantotajiem 
+EGV - ar klimatu saistītos. Visi `05_EGV*.R` faili veido mainīgos, bet ar nedaudz 
+atšķirīgām pieejām, to savstarpējās izpildes secībai nav nozīmes - svarīgi, lai 
+tie tiek izpildīti pēc `04_*.R`, bet pirms `06_*.R`. Visi putnu sugu izplatības 
 modelēšanai izstrādātie EGV ir raksturoti https://aavotins.github.io/PutnuSDMs_gramata/Chapter5.html, 
 kur ir niegtas saites to lejupielādei. Vistu vanaga izplatības modeļa parametrizācijā 
 izmantotie, ir pievienoti projekta 2024. gada pārskata elektroniskajā pielikumā;
 
-- `06_NoverojumuSagatavosana.R` veic vistu vanaga izplatības modelēšanai izmantojamo 
+- `05_EGVdistance.R` sagatavo divus no kopumā 33 beigu modelī izmantotajiem 
+EGV - ar attālumu līdz vietai saistītos. Visi `05_EGV*.R` faili veido mainīgos, bet ar nedaudz 
+atšķirīgām pieejām, to savstarpējās izpildes secībai nav nozīmes - svarīgi, lai 
+tie tiek izpildīti pēc `04_*.R`, bet pirms `06_*.R`. Visi putnu sugu izplatības 
+modelēšanai izstrādātie EGV ir raksturoti https://aavotins.github.io/PutnuSDMs_gramata/Chapter5.html, 
+kur ir niegtas saites to lejupielādei. Vistu vanaga izplatības modeļa parametrizācijā 
+izmantotie, ir pievienoti projekta 2024. gada pārskata elektroniskajā pielikumā;
+
+- `05_EGVmezaudzes.R` sagatavo deviņus no kopumā 33 beigu modelī izmantotajiem 
+EGV - ar mežaudžu kvantitatīvajiem raksturojumiem šūnas līmenī saistītos. 
+Visi `05_EGV*.R` faili veido mainīgos, bet ar nedaudz 
+atšķirīgām pieejām, to savstarpējās izpildes secībai nav nozīmes - svarīgi, lai 
+tie tiek izpildīti pēc `04_*.R`, bet pirms `06_*.R`. Visi putnu sugu izplatības 
+modelēšanai izstrādātie EGV ir raksturoti https://aavotins.github.io/PutnuSDMs_gramata/Chapter5.html, 
+kur ir niegtas saites to lejupielādei. Vistu vanaga izplatības modeļa parametrizācijā 
+izmantotie, ir pievienoti projekta 2024. gada pārskata elektroniskajā pielikumā;
+
+- `05_EGVklasesplatiba.R` sagatavo 13 no kopumā 33 beigu modelī izmantotajiem 
+EGV - ar mežaudžu kvantitatīvajiem raksturojumiem šūnas līmenī saistītos. 
+Visi `05_EGV*.R` faili veido mainīgos, bet ar nedaudz 
+atšķirīgām pieejām, to savstarpējās izpildes secībai nav nozīmes - svarīgi, lai 
+tie tiek izpildīti pēc `04_*.R`, bet pirms `06_*.R`. Visi putnu sugu izplatības 
+modelēšanai izstrādātie EGV ir raksturoti https://aavotins.github.io/PutnuSDMs_gramata/Chapter5.html, 
+kur ir niegtas saites to lejupielādei. Vistu vanaga izplatības modeļa parametrizācijā 
+izmantotie, ir pievienoti projekta 2024. gada pārskata elektroniskajā pielikumā;
+
+- `05_EGVmalas.R` sagatavo piecus no kopumā 33 beigu modelī izmantotajiem 
+EGV - ar mežaudžu kvantitatīvajiem raksturojumiem šūnas līmenī saistītos. 
+Visi `05_EGV*.R` faili veido mainīgos, bet ar nedaudz 
+atšķirīgām pieejām, to savstarpējās izpildes secībai nav nozīmes - svarīgi, lai 
+tie tiek izpildīti pēc `04_*.R`, bet pirms `06_*.R`. Visi putnu sugu izplatības 
+modelēšanai izstrādātie EGV ir raksturoti https://aavotins.github.io/PutnuSDMs_gramata/Chapter5.html, 
+kur ir niegtas saites to lejupielādei. Vistu vanaga izplatības modeļa parametrizācijā 
+izmantotie, ir pievienoti projekta 2024. gada pārskata elektroniskajā pielikumā;
+
+- `06_EGVpecapstrade.R` veic izveidoto slāņu harmonizēšanu. Tai nepieciešamie 
+faili (bez pašiem slāņiem) ir šajā repozitorijā
+
+- `07_NoverojumuSagatavosana.R` veic vistu vanaga izplatības modelēšanai izmantojamo 
 sugas klātbūtnes vietu atlasi ārēji harmonizētā datu kopā, kurā apkopoti šī projekta 
 ietvaros iegūtie, dabas novērojumu portālā dabasdati.lv ziņotie, Dabas aizsardzības 
 pārvaldes dabas datu pārvaldības sistēmā OZOLS reģistrētie un individuālu dabas 
@@ -59,7 +99,7 @@ datu kopa no modeļa neatkarīgai testēšanai izmantojamās, sagatavotas vidi-k
 aprakstošas vietas, kuras tāpat kā klātbūtnes vietas stratificētas modeļa apmācībai 
 un neatkarīgai testēšanai izmantojamās;
 
-- `07_EGVizvele.R` atkārto izmantoto procedūru vistu vanaga izplatības modeļa 
+- `08_EGVizvele.R` atkārto izmantoto procedūru vistu vanaga izplatības modeļa 
 parametrizācijā izmantojamo ekoģeogrāfisko mainīgo izvēlei. Sākumā pētnieku komandā 
 par sugas izplatību potenciāli ietekmējošiem izvēlēti 117 mainīgie, no kuriem 
 tikai 87 nebija multikolineāri $(\text{VIF} \le 10)$. Šie mainīgie tālāk izmantoti 
@@ -68,13 +108,13 @@ kuriem indikatīvā (n=9) permutāciju procedūrā vidējā aritmētiskā ietekm
 vismaz 1%. Šo komandu izpildes gaitā sagatavotā tabula ir ievietota šajā repozitorijā 
 `./SuguModeli/BestVarImp/BestVarImp_ACCGEN.xlsx`;
 
-- `08_SDM.R` atkārto vistu vanaga izplatības modeļa parametrizāciju, labākās 
+- `09_SDM.R` atkārto vistu vanaga izplatības modeļa parametrizāciju, labākās 
 parametrizācijas izvēli, sagatavo tās salīdzinošo (ar pārējām parametrizācijām) 
 raksturojumu, veic dzīvotņu piemērotības projekcijas kartes saglabāšanu GeoTIFF failā 
 un ievieš labākās parametrizācijas izvērtējumu saistībā ar nulles modeļiem. Teorētiskais 
 pamatojums ir sniegts projekta 2024. gada pārskatā;
 
-- `09_Prioritizacija.R` sagatavo komandu rindu failus vietu (anlīzes rastra šūnu 
+- `10_Prioritizacija.R` sagatavo komandu rindu failus vietu (anlīzes rastra šūnu 
 ar malas garumu 100 m) prioritizāciju vistu vanaga aizsardzībai, izmantojot Zonation 
 ceturto versiju ar saskaitāmā ieguvuma funkciju (*additive benefit function*) ar 100 
 zemākās nozīmes šūnu novākšanu ik iteratīvā procesa solī, to darot no jebkuras 
