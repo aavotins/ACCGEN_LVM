@@ -30,12 +30,7 @@ if(!require(gdalUtilities)) {install.packages("gdalUtilities"); require(gdalUtil
 if(!require(exactextractr)) {install.packages("exactextractr"); require(exactextractr)}
 if(!require(whitebox)) {install.packages("whitebox"); require(whitebox)}
 if(!require(landscapemetrics)) {install.packages("landscapemetrics"); require(landscapemetrics)}
-
+if(!require(httr)) {install.packages("httr"); require(httr)}
+if(!require(ows4R)) {install.packages("ows4R"); require(ows4R)}
 if(!require(doParallel)) {install.packages("doParallel"); require(doParallel)}
 if(!require(foreach)) {install.packages("foreach"); require(foreach)}
-
-
-
-
-
-
